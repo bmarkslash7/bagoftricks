@@ -7,6 +7,8 @@
 #' @param num.list list of numbers to replace characters in chars.list.  Default is seq(from = 1, to = 52, by = 1)
 #' @param mod.machine.int bool to return the full number (default = FALSE) or the full number modulus the integer range of the machine (set to TRUE).
 #'
+#' @return number
+#'
 #' @examples
 #' char2number('a')
 #' char2number("Hello World")

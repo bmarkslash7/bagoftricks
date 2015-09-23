@@ -16,6 +16,9 @@ char2number(init.string, chars.list = "NULL", num.list = "NULL",
 
 \item{mod.machine.int}{bool to return the full number (default = FALSE) or the full number modulus the integer range of the machine (set to TRUE).}
 }
+\value{
+number
+}
 \description{
 Currently only supports a-zA-z and removes spaces
 }
