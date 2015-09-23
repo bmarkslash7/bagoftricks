@@ -1,0 +1,13 @@
+Package: bagoftricks
+Version: 0.1
+Date: 2015-Sept-22
+Title: bagoftricks 
+Authors@R: c(
+	person("Christopher", "Stieha", role = c("aut", "cre", "cph"), email = "stieha@hotmail.com"))
+Author:	Christopher Stieha [aut, cre, cph],
+Depends: R (>= 3.0.2)
+Maintainer: Christopher Stieha <stieha@hotmail.com>
+Description: A collection of R functions (that may or may not be useful) as I write them   
+License: GPL-3
+URL: https://github.com/bmarkslash7/bagoftricks
+BugReports: https://github.com/bmarkslash7/bagoftricks/issues
