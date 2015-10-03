@@ -14,10 +14,10 @@ char2number(init.string, chars.list = "NULL", num.list = "NULL",
 
 \item{num.list}{list of numbers to replace characters in chars.list.  Default is seq(from = 1, to = 52, by = 1)}
 
-\item{mod.machine.int}{bool to return the full number (default = FALSE) or the full number modulus the integer range of the machine (set to TRUE).}
+\item{mod.machine.int}{bool to return the full number (default = FALSE) or the full number modulus the integer range of the machine (set to TRUE).  %% only works for integers.  Writing a modulus for doubles.}
 }
 \value{
-number
+a string containing a number.  Need to use as.numeric()
 }
 \description{
 Currently only supports a-zA-z and removes spaces

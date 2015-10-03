@@ -5,9 +5,9 @@
 #' @param init.string character string to be converted
 #' @param chars.list list of characters to be replaced.  Default is c('a',...,'z','A',...,'Z')
 #' @param num.list list of numbers to replace characters in chars.list.  Default is seq(from = 1, to = 52, by = 1)
-#' @param mod.machine.int bool to return the full number (default = FALSE) or the full number modulus the integer range of the machine (set to TRUE).
+#' @param mod.machine.int bool to return the full number (default = FALSE) or the full number modulus the integer range of the machine (set to TRUE).  %% only works for integers.  Writing a modulus for doubles.
 #'
-#' @return number
+#' @return a string containing a number.  Need to use as.numeric()
 #'
 #' @examples
 #' char2number('a')
